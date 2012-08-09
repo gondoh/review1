@@ -24,20 +24,20 @@ class Person {
 	}
 
 	public void showName() {
-		System.out.plintln(this.uji + "：" + this.lastName + " " + this.na + "：" + this.firstName);
+		System.out.println(this.uji + "：" + this.lastName + " " + this.na + "：" + this.firstName);
 	}
 
 	public static void main(String[] args) {
 		Person person1 = new Person();
-		person1.setLastName("和田");
-		person1.setFirstName("充史");
+		person1.setLastName("渡辺");
+		person1.setFirstName("高志");
 		person1.showName();
 
 		Person person2 = new Person();
 		person2.setLastName("和田");
 		person2.setFirstName("充史");
 		person2.showName();
-		
+
 	}
 
 }
