@@ -38,6 +38,8 @@ class Person {
 		person2.setFirstName("充史");
 		person2.showName();
 
+		person1.showName();
+
 	}
 
 }
